@@ -9,6 +9,7 @@ public class DemoArrayList {
 		al.add("Ram");
 		al.add("Shyam");
 		al.add("Vishal");
+		al.add("Rahul");
 
 		System.out.println(al);
 		al.set(2, "Raj");

@@ -13,6 +13,7 @@ public class AllLoop {
 		al.add("Ram");
 		al.add("Shyam");
 		al.add("Vishal");
+		al.add("Rahul");
 		
 		System.out.println("forloop");
 		for(int i=0; i<al.size();i++)
