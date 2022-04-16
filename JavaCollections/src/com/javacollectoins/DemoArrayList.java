@@ -1,8 +1,8 @@
-package javacollections;
+package com.javacollectoins;
 
 import java.util.ArrayList;
 
-public class ArrayListDemo {
+public class DemoArrayList {
 
 	public static void main(String[] args) {
 		
@@ -20,8 +20,7 @@ public class ArrayListDemo {
 		System.out.println(al);
 		al.remove(1);
 		System.out.println(al);
-		
-		
+
 	}
 
 }

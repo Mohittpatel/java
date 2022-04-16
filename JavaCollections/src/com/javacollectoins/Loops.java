@@ -1,12 +1,12 @@
-package javacollections;
+package com.javacollectoins;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Loops {
-
-	public static void main(String[] args) {
 	
+public static void main(String[] args) {
+		
 		ArrayList<String> al=new ArrayList<String>();
 		al.add("Mohit");
 		al.add("Ram");
@@ -43,7 +43,7 @@ public class Loops {
 		{ 
 			System.out.println(it.next());
 		}
-
-	}
+		
+}
 
 }
