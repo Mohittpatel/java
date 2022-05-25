@@ -1,13 +1,18 @@
 package com.cg.placement.repository;
 
-import com.cg.placement.entities.College;
 
-public interface ICollegeRepository 
-{
-	College addCollege(College college);
-	College updateCollege(College college);
-	College searchCollege(int id);
+import com.cg.placement.entities.College;
+import com.cg.placement.entities.Placement;
+
+public interface ICollegeRepository {
+	public College addCollege(College college);
+	public College updateCollege(College college);
+	public College searchCollege(int id);
 	void deleteCollege(int id);
-	void beginTransaction();
-	void commitTransaction();
+	public College schedulePlacement(Placement placement);
+	
+
+
+	public abstract void beginTransaction();
+	public abstract void commitTransaction();
 }

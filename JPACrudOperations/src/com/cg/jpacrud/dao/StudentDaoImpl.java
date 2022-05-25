@@ -9,7 +9,8 @@ public class StudentDaoImpl implements StudentDao
 
 	private EntityManager entityManager;
 
-	public StudentDaoImpl() {
+	public StudentDaoImpl()
+	{
 		entityManager = JPAUtil.getEntityManager();
 	}
 

@@ -18,8 +18,9 @@ public class Client {
 		 // Create Operation
 		student.setSid(106);
 		student.setSname("joyce");
-		service.addStudent(student);
 		
+		service.addStudent(student);
+		/*
 		
 		//at this breakpoint, we have added one record to table
 		// Retrieve Operation
@@ -47,7 +48,7 @@ public class Client {
 		System.out.println("End of program/Life cycle completed...");  
 	
 	
-		
+		*/
 
 	}
 }
