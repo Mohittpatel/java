@@ -1,9 +1,6 @@
 package com.cg.placement.client;
 
 import java.time.LocalDate;
-
-
-
 import com.cg.placement.entities.Admin;
 import com.cg.placement.entities.Certificate;
 import com.cg.placement.entities.College;
@@ -21,13 +18,15 @@ import com.cg.placement.service.PlacementServiceImpl;
 import com.cg.placement.service.StudentServiceImpl;
 import com.cg.placement.service.UserServiceImpl;
 
+
 public class client {
 
-	public static void main(String[] args) {
-		
-		
+	public static void main(String[] args)
+	{
+
 		Student student = new Student();
 		IStudentService st = new StudentServiceImpl();
+		
 		student.setName("mohit");
 		student.setRoll(21);
 		student.setQualification("PostGraduation");
@@ -90,15 +89,6 @@ public class client {
 		
 		admin.setUser(user);
 		user.setAdmin(admin);
-		
-	
-		
-		
-	
-		
-		
-		*/
-		
-	}
+		*/}
 
 }
